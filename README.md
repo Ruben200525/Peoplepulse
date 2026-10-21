@@ -1,16 +1,83 @@
-# React + Vite
+# PeoplePulse — Employee Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive employee management dashboard built with React and Vite. PeoplePulse helps users manage employee records through a clean, professional interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dashboard:** View employee statistics and an organized overview.
+- **Employee Management:** Add, edit, and delete employee records.
+- **Search and Filter:** Find employees by name, role, or department.
+- **Routing:** Navigate between Dashboard, Employees, and Login pages.
+- **Dark Mode:** Switch between light and dark themes.
+- **Data Persistence:** Store employee records using browser Local Storage.
+- **Login Page:** Frontend login form interface.
+- **Reusable Components:** Organized components for a maintainable codebase.
+- **Responsive UI:** Designed for a clear and accessible user experience.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript
+- CSS
+- React Router
+- Context API
+- Local Storage
+- Lucide React
 
-## Expanding the Oxlint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Ruben200525/Peoplepulse.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd Peoplepulse
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## Project Structure
+
+```text
+Peoplepulse/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── pages/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+```
+
+## Project Purpose
+
+This project was developed as part of a Full Stack Web Development Internship task to practice React fundamentals, reusable components, state management, routing, and responsive UI development.
+
+## Author
+
+**Ruben Michael**
+
+GitHub: [@Ruben200525](https://github.com/Ruben200525)
