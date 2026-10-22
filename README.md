@@ -81,3 +81,17 @@ This project was developed as part of a Full Stack Web Development Internship ta
 **Ruben Michael**
 
 GitHub: [@Ruben200525](https://github.com/Ruben200525)
+
+## 📸 Screenshots
+
+### Dashboard
+![PeoplePulse Dashboard](./src/screenshots/dashboard.png)
+
+### Employee Management
+![Employee List](./src/screenshots/employees.png)
+
+### Add Employee
+![Add Employee Form](./src/screenshots/add-employee.png)
+
+### Dark Mode
+![PeoplePulse Dark Mode](./src/screenshots/dark-mode.png)
